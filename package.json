@@ -1,0 +1,23 @@
+{
+  "name": "taka-proxy",
+  "version": "1.0.0",
+  "description": "Yelp Page Proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakTakTaka/taka-proxy.git"
+  },
+  "author": "TakTakTaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakTakTaka/taka-proxy/issues"
+  },
+  "homepage": "https://github.com/TakTakTaka/taka-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
