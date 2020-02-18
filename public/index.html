@@ -2,24 +2,35 @@
 <html>
   <head>
     <title>Yelp Page - Taka Proxy</title>
-    <!-- <link rel="stylesheet" href="http://localhost:3001/styles/styles.css"> -->
+    <link rel="stylesheet" href="http://localhost:3001/styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="takaProxy.css">
   </head>
 
   <body>
     <br><br>
-    <div id="infoPage">This is where the Main Info Service goes</div>
+    <img class="headFootImg" src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/proxy/dist/YelpSearch.png">
     <br><br>
-    <div id="root">This is where comments service goes</div>
-  
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-      
-    <!-- Main Info Service -->
-    <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/dist/bundle.js"></script>
-    <!-- <script src="http://localhost:7000/dist/bundle.js"></script> -->
     
-    <!-- Reviews Section Service -->
-    <!-- <script src="http://localhost:3001/dist/bundle.js"></script> -->
-  
+    <div id="serviceComponents">
+      <div id="infoPage">This is where the Main Info Service goes</div>
+      <br><br>
+      <div id="root">This is where comments service goes</div>
+    
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        
+      <!-- Main Info Service -->
+      <!-- <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/dist/bundle.js"></script> -->
+      <script src="http://localhost:7000/dist/bundle.js"></script>
+      
+      <!-- Reviews Section Service -->
+      <script src="http://localhost:3001/dist/bundle.js"></script>
+
+    </div>
+    
+    <br><br>
+    <img class="headFootImg" src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/proxy/dist/YelpFoot.png">
+    <br><br>
+
   </body>
 </html>
