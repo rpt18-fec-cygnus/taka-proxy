@@ -13,9 +13,9 @@ module.exports = function (grunt){
             files: [
               {
                   expand: true,
-                  cwd: 'public/dist/',
+                  cwd: 'public/',
                   src: [ '**' ],
-                  dest: '/proxy/dist'
+                  dest: '/proxy/public'
               }
             ]
         }
