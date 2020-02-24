@@ -21,5 +21,6 @@ app.get('/api/restaurantName/:restaurantName', proxy('http://localhost:7000'));
 
 //Reviews Service
 app.get('/data', proxy('http://localhost:3001'));
+app.post('/api/postReview', proxy('http://localhost:3001'));
 
 app.listen(port, () => console.log(`Cygnus-Yelp App Listening on port ${port}!`));
