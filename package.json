@@ -1,0 +1,30 @@
+{
+  "name": "taka-proxy",
+  "version": "1.0.0",
+  "description": "Yelp Page Proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakTakTaka/taka-proxy.git"
+  },
+  "author": "TakTakTaka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TakTakTaka/taka-proxy/issues"
+  },
+  "homepage": "https://github.com/TakTakTaka/taka-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.0",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-aws-s3": "^2.0.2"
+  }
+}

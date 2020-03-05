@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Yelp Page - Taka Proxy</title>
+    <link rel="stylesheet" type="text/css" href="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/Reviews/public/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/proxy/public/takaProxy.css">
+  </head>
+
+  <body>
+    <br><br>
+    <img class="headFootImg" src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/proxy/public/dist/YelpHead.png">
+    <br><br>
+    
+    <div id="serviceComponents">
+      <div id="infoPage">This is where the Main Info Service goes</div>
+      <br><br>
+      <div id="root">This is where comments service goes</div>
+      
+      <!-- Production code versus development code -->
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+      <!-- <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script> -->
+        
+      <!-- Main Info Service -->
+      <!-- <script src="http://localhost:7000/dist/bundle.js"></script> -->
+      <!-- <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/dist/bundle.js"></script> -->
+      <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/dist/miniBundle.js"></script>
+      
+      <!-- Reviews Section Service -->
+      <!-- <script src="http://localhost:3001/dist/bundle.js"></script> -->
+      <!-- <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/Reviews/public/bundle.js"></script> -->
+      <script src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/Reviews/public/minBundle.js"></script>
+
+    </div>
+    
+    <br><br>
+    <img class="headFootImg" src="https://taktaktaka-rpt18-fec-cygnus.s3-us-west-1.amazonaws.com/proxy/public/dist/YelpFoot.png">
+    <br><br>
+
+  </body>
+</html>

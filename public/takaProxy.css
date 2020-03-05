@@ -1,0 +1,14 @@
+/* html, body { height:100%; }  */
+
+#serviceComponents {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.headFootImg {
+  /* width: 90%; */
+  max-width: 100%;
+  /* min-width: 50%; */
+  height: auto;
+}
